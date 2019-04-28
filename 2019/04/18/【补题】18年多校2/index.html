@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<title>
+  
+    【补题】18年多校2
+  
+</title>
+
+<meta name="description" content="目录 Game [HDU 6312] Swaps and Inversions [HDU 6318]   GameDescriptionAlice and Bob are playing a game.The game is played on a set of positive integers from 1 to $n$.  In one step, the player can choose">
+<meta name="keywords" content="数学,贪心,模拟">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【补题】18年多校2">
+<meta property="og:url" content="http://yoursite.com/2019/04/18/【补题】18年多校2/index.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:description" content="目录 Game [HDU 6312] Swaps and Inversions [HDU 6318]   GameDescriptionAlice and Bob are playing a game.The game is played on a set of positive integers from 1 to $n$.  In one step, the player can choose">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-04-28T19:08:09.633Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【补题】18年多校2">
+<meta name="twitter:description" content="目录 Game [HDU 6312] Swaps and Inversions [HDU 6318]   GameDescriptionAlice and Bob are playing a game.The game is played on a set of positive integers from 1 to $n$.  In one step, the player can choose">
+
+
+  <link rel="alternative" href="/atom.xml" title="blog" type="application/atom+xml">
+
+
+
+  <link rel="icon" href="/images/avatar.ico">
+
+
+<link rel="stylesheet" href="/perfect-scrollbar/css/perfect-scrollbar.min.css">
+<link rel="stylesheet" href="/styles/main.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+
+
+
+</head>
+<body class="monochrome">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="mobile-header">
+  <button class="sidebar-toggle" type="button">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="title" href="/">blog</a>
+</div>
+
+  <div class="main-container">
+    <div class="sidebar">
+  <div class="header">
+    <h1 class="title"><a href="/">blog</a></h1>
+    
+    <div class="info">
+      <div class="content">
+        
+        
+          <div class="author">tsukimori yoko</div>
+        
+      </div>
+      
+        <div class="avatar">
+          
+            <a href="/"><img src="/images/avatar.jpg"></a>
+          
+        </div>
+      
+    </div>
+  </div>
+  <div class="body">
+    
+      
+        <ul class="nav">
+          
+            
+              <li class="category-list-container">
+                <a href="javascript:;">category</a>
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ACM/">ACM</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/垃圾桶/">垃圾桶</a><span class="category-list-count">1</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="tag-list-container">
+                <a href="javascript:;">tag</a>
+                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/テスト/">テスト</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数学/">数学</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/模拟/">模拟</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/贪心/">贪心</a><span class="tag-list-count">2</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="archive-list-container">
+                <a href="javascript:;">archive</a>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">1</span></li></ul>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="/" title="Homepage">Homepage</a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="/archives" title="By Year">By Year</a>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="https://github.com/tsukimoriyoko" title="Github" target="_blank" rel="noopener">Github</a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="/atom.xml" title="RSS">RSS</a>
+              </li>
+            
+          
+        </ul>
+      
+    
+  </div>
+</div>
+
+    <div class="main-content">
+      
+        <div style="max-width: 1000px">
+      
+          <article id="post-【补题】18年多校2" class="article article-type-post">
+  
+    <h1 class="article-header">
+      【补题】18年多校2
+    </h1>
+  
+  
+
+  <div class="article-info">
+    <span class="article-date">
+  2019-04-18
+</span>
+
+    
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/ACM/">ACM</a></li></ul>
+	</span>
+
+
+    
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数学/">数学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/模拟/">模拟</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/贪心/">贪心</a></li></ul>
+	</span>
+
+
+  </div>
+  <div class="article-entry">
+    <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul>
+<li><a href="#Game">Game [HDU 6312]</a></li>
+<li><a href="#Swapsand-Inversions">Swaps and Inversions [HDU 6318]</a></li>
+</ul>
+<hr>
+<h1 id="Game"><a href="#Game" class="headerlink" title="Game"></a>Game</h1><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>Alice and Bob are playing a game.<br>The game is played on a set of positive integers from 1 to $n$. </p>
+<p>In one step, the player can choose a positive integer from the set, and erase all of its divisors from the set. If a divisor doesn’t exist it will be ignored. </p>
+<p>Alice and Bob choose in turn, the one who cannot choose (current set is empty) loses.<br>Alice goes first, she wanna know whether she can win. Please judge by outputing <code>Yes</code> or <code>No</code>.</p>
+<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>考虑$n&gt;1$时先手取1等价于互换先后手，故Alice必胜。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n) == <span class="number">1</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"Yes\n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="Swaps-and-Inversions"><a href="#Swaps-and-Inversions" class="headerlink" title="Swaps and Inversions"></a>Swaps and Inversions</h1><h2 id="Description-1"><a href="#Description-1" class="headerlink" title="Description"></a>Description</h2><p>Long long ago, there was an integer sequence a.<br>Tonyfang think this sequence is messy, so he will count the number of inversions in this sequence. Because he is angry, you will have to pay $x$ yuan for every inversion in the sequence. </p>
+<p>You don’t want to pay too much, so you can try to play some tricks before he sees this sequence. You can pay $y$ yuan to swap any two adjacent elements.<br>What is the minimum amount of money you need to spend? </p>
+<h2 id="Solution-1"><a href="#Solution-1" class="headerlink" title="Solution"></a>Solution</h2><p>交换相邻项使数组有序需要的最小次数等于逆序数。</p>
+<p>故所求为逆序数$\ *min(x, y)$。逆序数使用归并排序求出。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXN = <span class="number">100000</span> + <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> A[MAXN], B[MAXN];</span><br><span class="line"></span><br><span class="line"><span class="function">LL <span class="title">min</span><span class="params">(LL x, LL y)</span> </span>&#123; <span class="keyword">return</span> x &lt; y ? x : y; &#125;</span><br><span class="line"></span><br><span class="line"><span class="function">LL <span class="title">merge</span><span class="params">(<span class="keyword">int</span> A[], <span class="keyword">int</span> L[], <span class="keyword">int</span> R[], <span class="keyword">int</span> left, <span class="keyword">int</span> right)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>, k = <span class="number">0</span>;</span><br><span class="line">    LL res = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (i &lt; left &amp;&amp; j &lt; right)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (L[i] &lt;= R[j])</span><br><span class="line">        &#123;</span><br><span class="line">            A[k++] = L[i++];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            A[k++] = R[j++];</span><br><span class="line">            res += left - i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span> (i &lt; left)</span><br><span class="line">        A[k++] = L[i++];</span><br><span class="line">    <span class="keyword">while</span> (j &lt; right)</span><br><span class="line">        A[k++] = R[j++];</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">LL <span class="title">merge_sort</span><span class="params">(<span class="keyword">int</span> A[], <span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt; <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0l</span>l;</span><br><span class="line">    <span class="keyword">int</span> mid = n / <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> *L = <span class="keyword">new</span> <span class="keyword">int</span>[mid];</span><br><span class="line">    <span class="keyword">int</span> *R = <span class="keyword">new</span> <span class="keyword">int</span>[n - mid];</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; mid; i++)</span><br><span class="line">        L[i] = A[i];</span><br><span class="line">    <span class="keyword">for</span> (i = mid; i &lt; n; i++)</span><br><span class="line">        R[i - mid] = A[i];</span><br><span class="line">    LL inv = merge_sort(L, mid);</span><br><span class="line">    inv += merge_sort(R, n - mid);</span><br><span class="line">    inv += merge(A, L, R, mid, n - mid);</span><br><span class="line">    <span class="keyword">delete</span>[] L;</span><br><span class="line">    <span class="keyword">delete</span>[] R;</span><br><span class="line">    <span class="keyword">return</span> inv;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n, x, y;</span><br><span class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>, &amp;n, &amp;x, &amp;y) == <span class="number">3</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;A[i]);</span><br><span class="line">        LL ans = merge_sort(A, n);</span><br><span class="line">        ans *= min(x, y);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%lld\n"</span>, ans);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+  </div>
+  <footer class="article-footer">
+    
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" title="署名-相同方式共享">
+      <img src="/images/cc/cc.png">
+      
+          <img src="/images/cc/by.png">
+        
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        本作品采用知识共享 署名-相同方式共享 4.0 国际许可协议进行许可。
+      </span>
+    </a>
+  </div>
+
+
+    
+
+  </footer>
+</article>
+
+
+
+
+
+
+
+          <div class="main-footer">
+  
+    © 2019 blog - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
+  
+</div>
+
+      
+        </div>
+      
+    </div>
+  </div>
+  <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+<script src="/perfect-scrollbar/js/min/perfect-scrollbar.min.js"></script>
+<script src="/scripts/main.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</body>
+</html>
